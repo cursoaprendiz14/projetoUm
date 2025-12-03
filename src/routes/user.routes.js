@@ -1,4 +1,4 @@
-import { createUser, login } from "../controllers/user.controller";
+import { createUser, login } from "../controllers/user.controller.js";
 
 async function userRoutes(app, options) {
     app.post("/register", createUser);
